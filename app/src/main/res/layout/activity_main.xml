@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cupcake"
+    tools:context="com.smx.engrbalogungift.happybirthday.MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="11dp"
+        android:text="Happy Birtday"
+        android:textColor="#0000FF"
+        android:textSize="23sp" />
+
+    <TextView
+        android:id="@+id/wish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/wish1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="50dp"
+        android:text="A great friend will stay with you
+Will not leave your side
+You will be yourself with your friend
+There won't be anything to hide
+You have been that kind of friend in my life
+Thanks for always being there
+Happy birthday to you
+May you keep smiling all through!"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="22dp" />
+
+    <TextView
+        android:id="@+id/wish1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/from"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="20dp"
+        android:text="May you have all the joy your heart can hold. All the smile a day can bring. All the blessing a life can unfold. May you get the world's best in everything."
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="22dp" />
+
+    <TextView
+        android:id="@+id/from"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="33dp"
+        android:gravity="center_horizontal"
+        android:text="From yours beloved: Balogun Gift"
+        android:textColor="#FFFFFF"
+        android:textAlignment="textEnd"
+        android:textSize="22dp" />
+
+</RelativeLayout>
